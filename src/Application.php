@@ -8,7 +8,10 @@ declare(strict_types=1);
 
 namespace Weida\WeixinVideoShop;
 
-class Application
+use Weida\WeixinCore\AbstractApplication;
+
+class Application extends AbstractApplication
 {
+    protected string $appType='videoShop';
 
 }
